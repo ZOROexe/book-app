@@ -31,10 +31,6 @@ const router = createBrowserRouter([
             }
         ]
     },
-    {
-        path: "/oomb",
-        element: <div>OOMB</div>
-    }
 ]);
 
 export default router;
