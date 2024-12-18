@@ -5,7 +5,7 @@ export default function Register() {
     const [message, setMessage] = useState("");
     return (
         <div className="h-[calc(100vh-120px)] flex justify-center items-center ">
-            <div className="w-full max-w-sm mx-auto bg-white shadow-md px-8 pt-6 pb-8 mb-4">
+            <div className="w-full max-w-sm mx-auto bg-white shadow-2xl px-8 pt-6 pb-8 mb-4">
                 <h2 className="text-xl font-semibold mb-2">Register</h2>
 
                 <form action="">

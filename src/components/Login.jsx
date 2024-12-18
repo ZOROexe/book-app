@@ -5,7 +5,7 @@ export default function Login() {
     const [message, setMessage] = useState("");
     return (
         <div className="h-[calc(100vh-120px)] flex justify-center items-center ">
-            <div className="w-full max-w-sm mx-auto bg-white shadow-md px-8 pt-6 pb-8 mb-4">
+            <div className="w-full max-w-sm mx-auto bg-white shadow-2xl px-8 pt-6 pb-8 mb-4">
                 <h2 className="text-xl font-semibold mb-2">Login</h2>
 
                 <form action="">
@@ -30,7 +30,7 @@ export default function Login() {
                 <div>
                     <button className="w-full flex flex-wrap justify-center items-center bg-secondary hover:bg-blue-700 text-white font-bold px-4 py-2 rounded hover:outline-none">
                         <FaGoogle className="mr-2"/>
-                        <span>Sing in with google</span>
+                        <span>Sign in with google</span>
                     </button>
                 </div>
             </div>

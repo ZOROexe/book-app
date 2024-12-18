@@ -17,7 +17,6 @@ export default function BestSellers() {
 
     const filteredBooks = selectedCategory === "Choose a genre" ? books : books.filter(
         (book) => book.category === selectedCategory.toLowerCase());
-    console.log(filteredBooks);
 
 
     return (
